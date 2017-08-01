@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+		<meta content="telephone=no" name="format-detection" />
+		<meta content="email=no" name="format-detection" />
+		<title>酒店详情</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/hotelDetail.css" />
+		<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="hotelDetail">
+			<header class="header">
+				<a href="index.html" class="home">
+					<img src="img/icon_home.png" />
+					<p>主页</p>
+				</a>
+				<a>
+					<h4>&nbsp;</h4></a>
+				<a href="hotelList.html" class="return">
+					<img src="img/icon_return.png" />
+					<p>返回</p>
+				</a>
+			</header>
+			<nav>
+				<a href="" ><span class="span1"   style="color: white;background-color: #32B16C;">房型</span></a>
+				<a href="hotel-introduction.html" ><span class="span2" >简介</span></a>
+				<a href=""><span class="span3">地图</span></a>
+				<a href="hotel-comment.html" ><span class="span4" >评论</span></a>
+			</nav>
+			<div class="room-type" id="d1">
+				<div class="adress">
+					<p> 秀灵路55号（出入近管理局旁）</p>
+				</div>
+				<div class="date">
+					<p>04月11日-04月12日 </p>
+				</div>
+				<div class="choose">
+					<p>入住：<input type="date" /> </p>
+					<p>离开：<input type="date" /></p>
+					<button>确定修改</button>
+					<button>取消</button>
+				</div>
+				<script type="text/javascript">
+					$(function() {
+						$(".date").click(function() {
+							if($(".choose").css("display") == "none") {
+								$(".choose").css("display", "block");
+							} else {
+								$(".choose").css("display", "none");
+							}
+						})
+					})
+				</script>
+				<ul>
+					<li>
+						<p><span class="span-left">上下铺</span><span class="span-right">￥134 起 <button>预定</button> </span> </p>
+						<img src="img/20130411152105m.jpg" />
+					</li>
+					<li>
+						<p><span class="span-left">榻榻米</span><span class="span-right">￥124 起 <button>预定</button> </span> </p>
+						<img src="img/20131107115608s.jpg" />
+					</li>
+					<li>
+						<p><span class="span-left">阳光房</span><span class="span-right full">￥124 起 <button >满房</button> </span> </p>
+						<img src="img/20130411152015s.jpg" />&nbsp;<img src="img/20130729222733s.jpg" />
+					</li>
+					<li>
+						<p><span class="span-left">阁楼房</span><span class="span-right full">￥144 起 <button >满房</button> </span> </p>
+						<img src="img/20130411151851s.jpg" />&nbsp;<img src="img/20130729222806s.jpg" />
+					</li>
+					<li>
+						<p><span class="span-left">迷你房</span><span class="span-right full">￥103 起 <button >满房</button> </span> </p>
+						<img src="img/20130411151945s.jpg" />&nbsp;<img src="img/20130729222654s.jpg" />
+					</li>
+				</ul>
+				<p> <span class="prompt">特别提示</span></p>
+				<p>最早入住时间为中午12：00，如需提前入住请联系客服。</p>
+            </div>
+			
+            
+		    <div class="footer">
+					<a href="">立即登录</a>|
+					<a href="">免费注册</a>|
+					<a href="">电脑版</a>
+					<p>格子微酒店连锁&copy;版权所有 2016-2018</p>
+			</div>
+		</div>
+
+	</body>
+
+</html>

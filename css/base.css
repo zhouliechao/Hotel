@@ -1,0 +1,40 @@
+* ,:before ,: after{
+  /*所有标签及伪类*/
+  margin : 0 ;
+  padding : 0 ;
+  /*清除移动端高亮效果*/
+  -webkit-tap-highlight-color : transparent;
+  /*设置所有的盒子以边框开始计算宽度*/
+  -webkit-box-sizing : border-box;
+  box-sizing : border-box ;
+  font-family : "microsoft yahei" , sans-serif; /*设置默认字体*/
+  color : #333 ;
+}
+a {  
+	color: #333333 ;
+	display:inline-block;
+    text-decoration : none;
+}
+
+input {
+  border :none ;
+  outline : none ;
+  -webkit-appearance : none; /*移除默认表单样式*/
+}
+.f_float {
+  float : left;
+}
+.f_right {
+  float : right;
+}
+.clearfix : before, .clearfix :after {
+  content : "" ;
+  height : 0 ;
+  line-height : 0 ;
+  display : block ;
+  visibility : hidden ;
+  clear : both ;
+}
+ul , ol{
+  list-style : none ;
+}

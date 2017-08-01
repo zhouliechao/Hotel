@@ -1,0 +1,175 @@
+#hotelDetail{
+	width: 100%;
+	height: auto;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background-color:#6AC134 ;
+	font-size: 0;
+}
+.header a{
+	width: 33%;
+	color: white;
+	vertical-align: middle;
+}
+.header img{
+	width: 15%;
+	height: auto;
+	padding: 0 20px;
+}
+.header h4{
+	margin:20px 0;
+	font-weight: 300;
+	font-size: 22px;
+}
+.header p{
+	margin: 0;
+	padding:0 20px;
+	font-size: 14px;
+}
+.home{
+	text-align: left;
+}
+.return{
+	text-align: right;
+}
+@media only screen and (max-width:480px) {
+	.header p {
+		padding: 0 15px;
+	}
+}
+nav{
+	width: 100%;
+	height: auto;
+	font-size: 0;
+	border-bottom:1px solid #C5C5C5 ;
+}
+nav a{
+	width: 25%;
+	font-size: 14px;
+	text-align: center;
+	
+}
+.span1,.span2,.span3,.span4{
+	display: block;
+	padding: 10px 20px;
+}
+
+.span2{
+	border-left: 1px solid #C5C5C5;
+	border-right: 1px solid #C5C5C5;
+}
+.span3{
+	border-right: 1px solid #C5C5C5;
+}
+.adress,.date{
+	padding: 10px ;
+	border-bottom: 1px solid #C5C5C5;
+}
+.adress p,.date p{
+	margin-left: 35px;
+}
+.adress{
+	background: url(../img/location_icon.png) no-repeat left center;
+	background-size: 35px 35px;
+}
+.date{
+	background: url(../img/calendar.png) no-repeat left center;
+	background-size: 35px 35px;
+}
+.choose{
+	display: none;
+	padding-top: 8px;
+	background-color: gainsboro;
+}
+.choose input{
+	background-color: white;
+}
+.choose button{
+	margin-left: 5px;
+	height:30px;
+}
+
+ul{
+	padding: 0;
+}
+.span-left{
+	color: #60AB2B;
+}
+.span-right{
+	
+	float: right;
+	color: red;
+}
+.span-right button{
+	border: 0;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #5CB95C;
+	color: white;
+}
+.full button{
+	background: linear-gradient(white,darkgray);
+	color: black;
+}
+ul img{
+	width: 30%;
+}
+ul li{
+	padding-bottom: 10px;
+	border-bottom: 1px solid gainsboro;
+}
+.prompt{
+	background-color: #6AC134;
+	padding:10px 20px;
+	color: white;
+}
+.footer{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.footer a{
+	color: #0088CC;
+}
+.footer p{
+	margin: 0;
+	color: #BBBBBB;
+}
+.title{
+	width: 20%;
+	padding: 10px 20px;
+	background-color: #6AC134;
+	color: white;
+}
+.pic img{
+	width: 80%;
+	height: auto;
+}
+.uesr span img {
+	width: 32px ;
+	height: 32px;
+	vertical-align: middle;
+}
+.content{
+	width: 75%;
+	background-color: #DCF4E7;
+	padding: 10px;
+	margin: 5px 0 10px 0;
+}
+.page{
+	text-align: center;
+}
+.page a{
+	padding: 6px 8px;
+	border: 1px solid gainsboro;
+	color: #036CB4;
+}
+.page a:hover{
+	background-color: #6BC235;
+}

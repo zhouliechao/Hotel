@@ -1,0 +1,106 @@
+#hotel{
+	width: 100%;
+	height: auto;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+.logo{
+	width: 100%;
+	height: 61px;
+	background-color: #6AC134;
+}
+.logo img{
+	height: 40px;
+	margin: 10px;
+}
+.main{
+	width: 100%;
+	font-size: 0;
+	margin-top: 20px;
+}
+.main ul{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	font-size: 0;
+	margin-top: 8px;
+}
+.main li{
+	width: 50%;
+	height: auto;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.main a{
+	margin-left:2% ;
+	width: 97%;
+}
+.main li p{
+	width: 40px;
+	font-size:16px ;
+	color: white;
+	padding-left: 20px;
+}
+.main a{
+	padding: 20px 0;
+}
+.main ul li span{
+	width:70px ;
+	height: 60px;
+	display: block;
+	position: absolute;
+	top: 25px;
+	right: 25%;
+	background-size: 155px 200px;
+}
+.hotel{
+	background:#36A1DB;
+}
+.hotel span{
+	background: url(../img/defaultimg.png) left top;
+	
+}
+.active{
+	background-color: #81B637;
+}
+.active span{
+	background: url(../img/defaultimg.png) -75px 0;
+}
+.orders{
+	background-color:#E57E22 ;
+}
+.orders span{
+	background: url(../img/defaultimg.png) 0 -70px;
+}
+.lattice{
+	background-color: #7E54DC;
+}
+.lattice span{
+	background: url(../img/defaultimg.png) -75px -70px;
+}
+.gift{
+	background-color: #678FCF;
+}
+.gift span{
+	background: url(../img/defaultimg.png) 0 -135px;
+}
+.consult{
+	background: #E3B607;
+}
+.consult span{
+	background: url(../img/defaultimg.png) -75px -135px;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+footer a{
+	color: #0088CC;
+}
+footer p{
+	margin: 0;
+	color: #BBBBBB;
+}

@@ -1,0 +1,175 @@
+{
+	"index.html": {
+		"resources": [
+			"css/base.css",
+			"SelectCity.html",
+			"img/defaultimg.png",
+			"css/style.css",
+			"img/logo.png",
+			"myorders.html",
+			"gift.html",
+			"new-activity.html",
+			"help.html"
+		],
+		"refer": [
+			"SelectCity.html",
+			"myorders.html",
+			"gift.html",
+			"new-activity.html",
+			"help.html"
+		]
+	},
+	"SelectCity.html": {
+		"resources": [
+			"index.html",
+			"img/icon_home.png",
+			"img/icon_return.png",
+			"css/SelectCity.css",
+			"css/base.css",
+			"img/location_icon.png",
+			"js/js.js",
+			"js/jquery-3.1.1.js",
+			"img/coupon_icon6.png",
+			"hotelList.html"
+		],
+		"refer": [
+			"index.html",
+			"hotelList.html"
+		]
+	},
+	"hotelList.html": {
+		"resources": [
+			"css/hotelList.css",
+			"SelectCity.html",
+			"img/icon_home.png",
+			"css/base.css",
+			"img/icon_return.png",
+			"img/hotel1.jpg",
+			"img/icon_weixin.png",
+			"img/icon_gps2.png",
+			"img/icon_reality.png",
+			"img/hotel2.jpg",
+			"img/hotel3.jpg",
+			"img/hotel6.jpg",
+			"img/hotel5.jpg",
+			"img/hotel4.jpg",
+			"index.html",
+			"hotelDetail.html"
+		],
+		"refer": [
+			"SelectCity.html",
+			"index.html",
+			"hotelDetail.html"
+		]
+	},
+	"hotelDetail.html": {
+		"resources": [
+			"css/hotelDetail.css",
+			"index.html",
+			"SelectCity.html",
+			"img/icon_home.png",
+			"css/base.css",
+			"img/icon_return.png",
+			"hotelList.html",
+			"img/location_icon.png",
+			"img/calendar.png",
+			"js/js.js",
+			"js/jquery-3.1.1.js",
+			"img/20130411152105m.jpg",
+			"img/20131107115608s.jpg",
+			"img/20130729222733s.jpg",
+			"img/20130411152015s.jpg",
+			"img/20130411151851s.jpg",
+			"img/20130729222806s.jpg",
+			"img/20130729222654s.jpg",
+			"img/20130411151945s.jpg",
+			"img/20121231113309m.jpg",
+			"img/20121231113406m.jpg",
+			"img/20121231113520m.jpg",
+			"img/user01.png",
+			"img/user02.png",
+			"img/6426.jpg",
+			"js/hotelDetail.js",
+			"hotel-introduction.html"
+		],
+		"refer": [
+			"index.html",
+			"SelectCity.html",
+			"hotelList.html",
+			"hotel-introduction.html"
+		]
+	},
+	"myorders.html": {
+		"resources": [
+			"index.html",
+			"img/share-icon.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"gift.html": {
+		"resources": [
+			"img/13.jpg",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"new-activity.html": {
+		"resources": [
+			"img/activity6.jpg",
+			"index.html",
+			"img/activity2.jpg",
+			"img/activity1.jpg",
+			"img/activity3.jpg",
+			"img/activity5.jpg",
+			"img/activity4.jpg",
+			"css/public.css",
+			"img/activity7.jpg",
+			"img/activity8.jpg"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"help.html": {
+		"resources": [
+			"index.html",
+			"img/2.jpg",
+			"img/1.jpg",
+			"img/0.jpg",
+			"img/4.jpg",
+			"img/3.jpg",
+			"img/5.jpg"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"hotel-introduction.html": {
+		"resources": [
+			"img/20121231113406m.jpg",
+			"hotelDetail.html",
+			"hotel-comment.html",
+			"img/20121231113520m.jpg",
+			"img/20121231113309m.jpg"
+		],
+		"refer": [
+			"hotelDetail.html",
+			"hotel-comment.html"
+		]
+	},
+	"hotel-comment.html": {
+		"resources": [
+			"hotel-introduction.html",
+			"img/user01.png",
+			"img/6426.jpg",
+			"img/user02.png"
+		],
+		"refer": [
+			"hotel-introduction.html"
+		]
+	}
+}
